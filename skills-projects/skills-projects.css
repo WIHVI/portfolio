@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Navbar */
+nav {
+    background: #605C3C;
+    max-width: 40%;
+    height: 60px;
+    margin: 10px auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border: 0.5px solid #fff;
+    border-radius: 5px;
+    width: 95px;
+    height: 40px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    background: #fff;
+    color: #3C3B3F;
+    transition: all 0.5s ease;
+}
+
+/* Skills section */
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.skills h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.skills_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.fa-brands {
+    font-size: 65px;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+/* .fa-html5 {
+    color: #e34c26;
+}
+
+.fa-css3-alt {
+    color: #264de4;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+.fa-react {
+    color: #61dbfb;
+}
+
+.fa-git-alt {
+    color: #f1502f;
+} */
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.projects h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
+    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.projects_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
