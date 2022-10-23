@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #3C3B3F;
+    background: -webkit-linear-gradient(to left, #605C3C, #3C3B3F);
+    background: linear-gradient(to left, #605C3C, #3C3B3F);
+}
+
+main {
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 0px #3C3B3F;
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+    text-decoration-thickness: 4px;
+    text-decoration-color: #605C3C;
+}
+
+section {
+    display: flex;
+    gap: 50px;
+}
+
+img {
+    height: 600px;
+    width: 460px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+p {
+    text-shadow: 2px 2px 0px #3C3B3F;
+    color: #fff;
+    letter-spacing: 1px;
+    word-spacing: 0.8px;
+    line-height: 1.6;
+}
+
+.code-symbol {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+}
+
+.code-symbol-margin {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.about-wrapper {
+    margin: auto;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: 50px auto 0 auto;
+}
+
+.links .fa-brands {
+    color: #fff;
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.projects-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    border: 0.5px solid #fff;
+    border-radius: 4px;
+    width: 95px;
+    height: 40px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+    margin-left: 20px;
+    letter-spacing: 2px;
+}
+
+.projects-link:hover {
+    background: #fff;
+    color: #3C3B3F;
+    transition: all 0.5s ease;
+}
+
