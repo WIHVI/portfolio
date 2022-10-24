@@ -65,7 +65,7 @@ nav a:hover {
 
 .skills h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background: #3C3B3F;
     background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
     background: linear-gradient(to right, #605C3C, #3C3B3F);
@@ -79,6 +79,7 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 40px;
 }
 
@@ -93,27 +94,6 @@ nav a:hover {
     -moz-text-fill-color: transparent;
 }
 
-/* .fa-html5 {
-    color: #e34c26;
-}
-
-.fa-css3-alt {
-    color: #264de4;
-}
-
-.fa-js {
-    color: #f0db4f;
-}
-
-.fa-react {
-    color: #61dbfb;
-}
-
-.fa-git-alt {
-    color: #f1502f;
-} */
-
-/* Projects section*/
 .projects {
     display: flex;
     flex-direction: column;
@@ -125,7 +105,7 @@ nav a:hover {
 
 .projects h1 {
     font-size: 36px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     background: #3C3B3F;
     background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
     background: linear-gradient(to right, #605C3C, #3C3B3F);
@@ -138,7 +118,6 @@ nav a:hover {
 .projects_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grig-template-rows: 1fr;
 }
 
 .project_card {
@@ -222,4 +201,27 @@ footer p {
     text-shadow: 2px 2px 0px #3C3B3F;
     color: #fff;
     font-size: 28px;
+}
+
+/* tablet and mobile dimensions */
+@media screen and (max-width: 1150px) {
+    .projects_container {
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .projects_container {
+        grid-template-columns: 1fr;
+        grid-row-gap: 15px;
+    }
+
+    footer p {
+        font-size: 24px;
+    }
+
+    footer .fa-brands {
+        margin-left: 5px;
+    }
 }
