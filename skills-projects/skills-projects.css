@@ -1,24 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 /* Navbar */
 header {
-    background: #3C3B3F;
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    background: #3c3b3f;
+    background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+    background: linear-gradient(to right, #605c3c, #3c3b3f);
 }
 
 header h1 {
     font-size: 36px;
     text-align: center;
-    text-shadow: 2px 2px 0px #3C3B3F;
+    text-shadow: 2px 2px 0px #3c3b3f;
     color: #fff;
 }
 
@@ -29,7 +29,7 @@ header li {
 header a {
     color: #fff;
     text-decoration: none;
-    text-shadow: 2px 2px 0px #3C3B3F;
+    text-shadow: 2px 2px 0px #3c3b3f;
     font-size: 20px;
 }
 
@@ -95,9 +95,9 @@ header a:hover {
         top: 60px;
         gap: 0;
         flex-direction: column;
-        background: #3C3B3F;
-        background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-        background: linear-gradient(to right, #605C3C, #3C3B3F);
+        background: #3c3b3f;
+        background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+        background: linear-gradient(to right, #605c3c, #3c3b3f);
         width: 100%;
         text-align: center;
         transition: 0.3s;
@@ -126,9 +126,9 @@ header a:hover {
 .skills h1 {
     font-size: 36px;
     margin-bottom: 40px;
-    background: #3C3B3F;
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    background: #3c3b3f;
+    background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+    background: linear-gradient(to right, #605c3c, #3c3b3f);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -145,9 +145,9 @@ header a:hover {
 
 .skills_container .fa-brands {
     font-size: 65px;
-    background: #3C3B3F;
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    background: #3c3b3f;
+    background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+    background: linear-gradient(to right, #605c3c, #3c3b3f);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -166,9 +166,9 @@ header a:hover {
 .projects h1 {
     font-size: 36px;
     margin-bottom: 40px;
-    background: #3C3B3F;
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    background: #3c3b3f;
+    background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+    background: linear-gradient(to right, #605c3c, #3c3b3f);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -185,15 +185,15 @@ header a:hover {
     flex-direction: column;
     justify-content: center;
     margin: 10px;
-    height: 290px;
-    width: 260px;
+    height: 275px;
+    width: 250px;
     border-radius: 5px;
     transition: 0.2s ease;
-    
 }
 
 .project_card:hover {
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+        rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
 .project_card img {
@@ -206,30 +206,33 @@ header a:hover {
 }
 
 .project_text {
-    background: #3C3B3F;
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    background: #3c3b3f;
+    background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+    background: linear-gradient(to right, #605c3c, #3c3b3f);
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     height: 100%;
 }
 
 .project_text h2 {
-    font-family: 'Dosis', sans-serif;
-    text-shadow: 2px 2px 0px #3C3B3F;
+    font-family: "Dosis", sans-serif;
     color: #fff;
-    margin: 10px 0 10px 15px;
+    margin: 8px 0 8px 8px;
+    font-size: 18px;
+}
+
+.project_links {
+    display: flex;
+    gap: 2px;
 }
 
 .project_links a {
     color: #fff;
-    margin-left: 15px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
-    font-family: 'Dosis', sans-serif;
+    font-family: "Dosis", sans-serif;
     text-decoration: none;
-    letter-spacing: 0.5px;
-    text-shadow: 2px 2px 0px #3C3B3F;
+    margin-left: 8px;
 }
 
 .project_links a:hover {
@@ -240,9 +243,9 @@ header a:hover {
 
 /* Footer */
 footer {
-    background: #3C3B3F;
-    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);
-    background: linear-gradient(to right, #605C3C, #3C3B3F);
+    background: #3c3b3f;
+    background: -webkit-linear-gradient(to right, #605c3c, #3c3b3f);
+    background: linear-gradient(to right, #605c3c, #3c3b3f);
     height: 70px;
     display: flex;
     align-items: center;
@@ -256,13 +259,20 @@ footer .fa-brands {
 }
 
 footer p {
-    text-shadow: 2px 2px 0px #3C3B3F;
+    text-shadow: 2px 2px 0px #3c3b3f;
     color: #fff;
     font-size: 28px;
 }
 
 /* tablet and mobile dimensions */
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1200px) {
+    .projects_container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row-gap: 15px;
+    }
+}
+
+@media screen and (max-width: 860px) {
     .projects_container {
         grid-template-columns: 1fr 1fr;
         grid-row-gap: 15px;
